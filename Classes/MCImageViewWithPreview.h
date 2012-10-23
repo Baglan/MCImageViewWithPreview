@@ -10,6 +10,7 @@
 
 @interface MCImageViewWithPreview : UIImageView
 
-@property (nonatomic, retain) UIImage *previewImage;
+@property (nonatomic, copy) NSString * previewImageName;
+@property (nonatomic, copy) NSString * imageName;
 
 @end

@@ -21,8 +21,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     MCImageViewWithPreview * imageView = [[MCImageViewWithPreview alloc] initWithFrame:self.view.bounds];
-    imageView.previewImage = [UIImage imageNamed:@"preview-image"];
-    imageView.image = [UIImage imageNamed:@"high-resolution-image"];
+    imageView.previewImageName = @"preview-image";
+    imageView.imageName = @"high-resolution-image";
     [self.view addSubview:imageView];
 }
 

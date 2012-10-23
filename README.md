@@ -10,8 +10,8 @@ Goal for this project is to create a replacement for the UIImageView component, 
 ## Usage
 
     MCImageViewWithPreview * imageView = [[MCImageViewWithPreview alloc] initWithFrame:self.view.bounds];
-    imageView.preview = [UIImage imageNamed:@"preview-image"];
-    imageView.image = [UIImage imageNamed:@"high-resolution-image"];
+    imageView.preview = @"preview-image";
+    imageView.image = @"high-resolution-image";
     
 ## License
 
